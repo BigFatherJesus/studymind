@@ -1,0 +1,329 @@
+# **Full Concept Description (Expanded Narrative + Details + Workflows)**
+
+## **1. Subject Creation**
+
+### **Narrative**
+
+A subject is the heart of the system. It is where all course material, notes, summaries, quizzes, and AI interactions come together. The moment a user creates a subject, the platform starts laying the foundation for a personalised learning environment. Instead of staring at an empty folder, the user sees an intelligent structure already forming. The system identifies themes, extracts key ideas from the description, and begins shaping a knowledge base the student will build upon.
+
+### **Features**
+
+* User enters the subject name and optional metadata.
+* A text field allows users to paste the syllabus or any important introduction.
+* AI generates:
+
+  * A short subject description
+  * Key concepts and definitions
+  * The initial structure of the knowledge base
+* Free users get one subject, limited uploads, and token capped processing.
+* Paid users unlock more subjects, higher limits, and advanced tools.
+
+### **Workflow Example**
+
+A student creates a subject called “Cognitive Psychology.”
+They paste the course syllabus into the text box.
+Within seconds the system returns:
+
+* A short description of the course
+* A list of major themes (attention, memory, cognition, perception)
+* A starter knowledge map with these core nodes already linked
+  The subject now feels alive rather than empty.
+
+---
+
+## **2. Upload Pipeline**
+
+### **Narrative**
+
+Uploading material is where the tool becomes transformative. Instead of manually rewriting notes, organising files, or summarising long lectures, the system handles everything automatically. Multiple AI agents work in sequence, each specialising in a particular task. The user uploads files and the platform builds structure around them without extra effort.
+
+### **Features**
+
+* Accepts many formats: PDF, Word, PPT, videos, audio, images, books, URLs.
+* Automatic transcription for audio and video.
+* OCR for images and scanned PDFs.
+* Extraction and cleaning of text.
+* Detection of sections or lecture boundaries.
+* Automatic organisation of material per lecture or chapter.
+* Summaries generated for:
+
+  * Individual lectures
+  * Entire subject
+* Flashcard creation
+* Quiz generation
+* Knowledge base updates
+* Duplicate content detection
+* Contradiction detection
+* Clear activity logs so users see what the system processed.
+
+### **Workflow Example**
+
+A student uploads:
+
+* “Lecture 1.mp4”
+* “Lecture 2 Slides.pdf”
+* “Chapter 3 textbook pages.jpg”
+
+The system transcribes Lecture 1, extracts text from the slides, performs OCR on the textbook images, merges them into a consistent lecture structure, and produces:
+
+* A summary for each lecture
+* A master summary
+* A set of flashcards for both lectures
+* A quiz with 15 auto generated questions
+* New nodes in the knowledge graph
+  The user did nothing besides uploading files.
+
+---
+
+## **3. Knowledge Base and Visual Map**
+
+### **Narrative**
+
+The knowledge base is one of the core innovations of the platform. Instead of leaving students with a messy archive of summaries and notes, the system builds a structured network of concepts that behaves much like an Obsidian vault. Every idea becomes a node. Every definition, connection, or reference becomes a link. Over time, this grows into a visual map of the entire subject that students can explore intuitively. It gives the feeling of navigating a living brain: one where understanding deepens with every upload.
+
+### **Features**
+
+* Automatic creation of nodes for concepts, definitions, formulas, events, and important terms.
+* Nodes link together to form a **connected web of terms**, similar to Obsidian’s graph view.
+* A visual map that shows clusters, central concepts, and relationships.
+* Each node includes:
+
+  * Definition
+  * Related topics
+  * Source citations
+  * Difficulty rating
+  * Exam relevance
+  * Linked flashcards and summaries
+* Users can add their own notes or create manual links.
+* Visual filters: show only lecture 1, show only exam relevant nodes, show beginner level nodes, etc.
+* Graph automatically reorganises as new material is added.
+
+### **Workflow Example**
+
+A student uploads two chapters and a lecture. The system expands the knowledge map by adding nodes like “Operant Conditioning,” “Reinforcement Schedules,” and “Behaviorism.”
+The student opens the visual graph. They click on “Operant Conditioning” and immediately see:
+
+* Its definition
+* Linked topics like “Skinner Box,” “Positive Reinforcement,” and “Punishment”
+* Quotes from the uploaded textbook
+* Flashcards automatically generated for that concept
+  If the student realises “Skinner Box” should be connected to another concept not yet linked, they add the connection manually and the graph updates in real time.
+
+---
+
+## **4. AI Chat Tutor**
+
+### **Narrative**
+
+The chat is not a generic assistant. It becomes an expert on the subject by learning from everything the user uploads. It behaves like a tutor that knows the lectures, the textbook, and the knowledge graph. It can explain, test, challenge, or guide the student.
+
+### **Features**
+
+* Fully grounded in subject materials.
+* Can cite which lecture, page, or slide an answer comes from.
+* Answers concept questions.
+* Provides step by step explanations.
+* Generates practice problems.
+* Adapts difficulty based on user performance.
+* Offers revision suggestions.
+* Can reference the knowledge map directly.
+
+### **Workflow Example**
+
+A student asks:
+“Can you explain the difference between top down and bottom up processing?”
+The tutor answers using lecture excerpts and knowledge base links.
+The student then asks: “Give me a quick quiz on this concept.”
+The tutor generates five questions, grades the answers, and fills in gaps.
+
+---
+
+## **5. Collaboration: Teams, Groups, Cohorts**
+
+### **Narrative**
+
+Studying is rarely a solo activity. Students share notes, build summaries together, and help each other understand difficult topics. The platform supports collaboration without chaos by giving owners precise control over who can view, upload, edit, verify, or chat with the AI.
+
+### **Features**
+
+* Create teams or study groups.
+* Invite users via shared links or email.
+* Assign roles and permissions.
+* Shared subjects or collections.
+* Shared flashcards and quizzes.
+* Shared knowledge bases with contribution tracking.
+* Chat tutor adjusts to group inputs.
+* Shared verification and conflict resolution.
+
+### **Workflow Example**
+
+A team of five students share “Econometrics.”
+The owner allows everyone to upload material but only gives edit rights to two users.
+One student uploads an article claiming something contradictory to the textbook.
+The system flags it.
+The owner chooses “Research” and receives:
+
+* A summary of external sources
+* A recommendation for which fact is correct
+  The contradiction is resolved for everyone.
+
+---
+
+## **6. Conflict Detection and Data Integrity**
+
+### **Narrative**
+
+When multiple students upload content, mistakes happen. Conflicting or incorrect information can undermine the entire study process. The system actively protects the knowledge base by detecting contradictions and prompting the user to resolve them.
+
+### **Features**
+
+* Automatically detects conflicting statements.
+* Points to their sources.
+* Offers resolution paths:
+
+  * Accept new info
+  * Reject new info
+  * Trigger autonomous research
+  * Manual correction
+* Option for automatic research on future conflicts.
+* Knowledge base updates after every resolution.
+
+### **Workflow Example**
+
+Two students upload conflicting definitions of “Elasticity of Demand.”
+The system flags it and asks the owner:
+
+* “Which source should be considered correct?”
+  The owner selects “Research.”
+  The system gathers verified definitions from textbooks and academic databases.
+  The correct version replaces both incorrect ones.
+
+---
+
+## **7. Verification Mode**
+
+### **Narrative**
+
+Before exams or major assignments, students want certainty. Verification Mode lets them validate the entire subject. The platform checks all claims, highlights weak areas, and confirms that the AI’s understanding aligns with factual sources.
+
+### **Features**
+
+* Full subject wide fact checking.
+* Confidence scoring of every concept.
+* Highlighting of ambiguous or unclear areas.
+* Suggestions for what material to upload next.
+* Summary of all verified concepts.
+
+### **Workflow Example**
+
+A student activates Verification Mode.
+The system analyses the subject and returns:
+
+* “98 percent of concepts verified”
+* “Two concepts need clarification”
+* “Recommended upload: Chapter 4 of your textbook for better coverage”
+  The student now knows exactly what to improve.
+
+---
+
+## **7.5 Version History and Rollback**
+
+### **Narrative**
+
+With so much automation, collaboration, and dynamic content generation, users need reliability and control. If an incorrect upload corrupts the knowledge base, if a team member introduces flawed notes, or if an AI summarisation goes in the wrong direction, the owner must have the ability to restore the subject to an earlier state. Version history provides this safety net. Each subject maintains snapshots of its structure, summaries, knowledge graph, flashcards, and uploaded metadata. Restoring a subject is as simple as selecting a date and rolling back.
+
+### **Features**
+
+* Automatic versioning whenever major changes occur:
+
+  * New uploads
+  * Knowledge base restructuring
+  * Conflict resolutions
+  * Verification updates
+  * Manual edits
+* Each version stores:
+
+  * Summaries
+  * Flashcards
+  * Quizzes
+  * Knowledge graph structure
+  * AI explanations
+  * Metadata
+* Rollback system that lets owners restore a previous version instantly.
+* Optional “compare snapshots” function showing what changed between versions.
+* Version storage limits based on subscription tier:
+
+  * **Free tier:** No version control
+  * **Entry tier:** 5 versions
+  * **Intermediate tier:** 10 versions
+  * **Advanced:** 15 versions
+  * **Professional/Team:** 25 versions
+  * **Enterprise:** Unlimited versions
+* Protects users from corrupted uploads, incorrect summarisation, or accidental deletions.
+
+### **Workflow Example**
+
+A team uploads a batch of lecture notes. The system processes everything, but a few members notice that the knowledge graph now includes inaccurate connections because one of the uploads contained misinformation.
+The owner opens the Version History panel and sees:
+
+* “Version 12: Before Lecture Upload”
+* “Version 13: After Processing”
+  The system displays a preview difference: 11 new nodes, 3 contradictory terms introduced.
+  With one click, the owner restores Version 12.
+  The knowledge graph, summaries, and flashcards return to their correct state.
+  The team can now reupload the corrected material safely.
+
+---
+
+## **8. Subscription and AI Credits**
+
+### **Narrative**
+
+Users can start for free, then scale up as their study needs grow. Credit based AI usage makes costs predictable while keeping heavy features sustainable.
+
+### **Features**
+
+* Plans for individuals and teams.
+* Subject limits scale with tiers.
+* Included monthly AI credits.
+* Pay as you go credit top ups.
+* Different tools have different credit costs.
+* Automatic or manual refill options.
+
+### **Workflow Example**
+
+A student has 10 credits left.
+They upload a large textbook chapter.
+The system warns: “Processing this will cost 14 credits. Top up?”
+They choose “Auto top up.”
+Processing begins immediately.
+
+---
+
+## **9. Dashboard and Organisation**
+
+### **Narrative**
+
+The dashboard gives clarity. Users can instantly see where they left off, what needs attention, and which subjects or teams have updates. It becomes the central hub for navigating their study ecosystem.
+
+### **Features**
+
+* Overview of all subjects.
+* Collections (subject folders).
+* Shared subjects and teams.
+* Notifications for new summaries, conflicts, verifications.
+* Credit usage overview.
+* Recently opened materials.
+* Quick action buttons.
+
+### **Workflow Example**
+
+A user logs in and sees:
+
+* Three subjects
+* One team workspace
+* A notification saying:
+  “New content processed: Lecture 3 Summary ready”
+  They click the notification and jump straight to the new material.
+
+
